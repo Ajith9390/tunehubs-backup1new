@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    margin: 0; /* Reset margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Form container styling */
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Maximum width of the form */
+    margin: auto; /* Center the form */
+}
+
+/* Label styling */
+label {
+    font-size: 16px; /* Font size for labels */
+    color: #333; /* Dark gray color for text */
+    display: block; /* Labels on their own line */
+    margin-bottom: 10px; /* Space below each label */
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the text field */
+    margin-bottom: 20px; /* Space below text fields */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button text */
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+

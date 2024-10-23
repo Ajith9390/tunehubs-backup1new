@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Header styling */
+p {
+    font-size: 24px; /* Larger font size for the header */
+    color: #333; /* Dark gray color */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Non-premium section styling */
+.non-premium {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the non-premium section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the text */
+}
+
+/* Premium section styling */
+.premium {
+    background-color: #e9ffe9; /* Light green background for premium users */
+    padding: 20px; /* Padding inside the premium section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+/* Table header styling */
+th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+    padding: 10px; /* Padding inside header cells */
+}
+
+/* Table cell styling */
+td {
+    padding: 10px; /* Padding inside cells */
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: center; /* Centered text */
+}
+
+/* Button styling */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding inside buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button text */
+    margin: 5px; /* Space around buttons */
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
